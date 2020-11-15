@@ -1,0 +1,36 @@
+{
+  "name": "@rncl/ui",
+  "version": "1.0.0",
+  "description": "ui",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "tsc",
+    "start": "tsc --watch"
+  },
+  "author": "Daniel Williams",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-natve": "*",
+    "@storybook/react-native": "*"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.5",
+    "@types/react-native": "^0.63.35",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "eslint": "^7.13.0",
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "@storybook/react-native": "^5.3.23"
+  },
+  "keywords": [
+    "react-native",
+    "native",
+    "react",
+    "modal",
+    "selector",
+    "picker"
+  ]
+}
